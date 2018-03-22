@@ -5,8 +5,8 @@ Additional goals are to make it predictable and (reasonably) reliable networking
 Eventually compare it to a similar application that utilize TCP sockets and compare the reliability, performance and overhead.
 
 TODO:
-[ ] Broadcast user messages from active users
-[ ] Disconnect users when they dont send ack's 
-    [ ] Retry sending messages a couple of times during a reasonable timeframe
-    [ ] If no ack is received, remove them from the active endpoint list
-[ ] Broadcast connection and disconnections to active users
+- [ ] Broadcast user messages from active users
+- [ ] Disconnect users when they dont send ack's 
+	- [ ] Retry sending messages a couple of times during a reasonable timeframe
+    - [ ] If no ack is received, remove them from the active endpoint list
+- [ ] Broadcast connection and disconnections to active users
