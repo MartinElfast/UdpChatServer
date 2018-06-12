@@ -1,12 +1,12 @@
 ## UDP Socket based Chat Server in C#
-
+###This is no longer updated, since I tried out Rust programming :)
 I wrote this project to practice and learn about UDP networking, my goal is to better understand how to handle networking traffic.
 
 Additional goals are to make it predictable and (reasonably) reliable networking solution using UDP bulding out an acknowledgement system by myself. 
 
 Eventually compare it to a similar application that utilize TCP sockets and compare the reliability, performance and overhead.
 
-This project is written in C# but has a recursive main loop for reading from the network buffer, which will eventually cause an StackOverflowException if the server is under constant incoming traffic.
+This project is written in C# but has a recursive main loop for reading from the network buffer, which will eventually cause an StackOverflowException if the server is under constant incoming traffic, eventough this will require a DDOS like traffic frequency it's an inherently bad design and has to be mentioned.
 
 ### TODO:
 - [ ] Broadcast user messages from active users
