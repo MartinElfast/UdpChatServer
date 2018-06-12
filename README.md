@@ -1,5 +1,5 @@
 ## UDP Socket based Chat Server in C#
-###This is no longer updated, since I tried out Rust programming :)
+### This is no longer updated, since I tried out Rust programming :)
 I wrote this project to practice and learn about UDP networking, my goal is to better understand how to handle networking traffic.
 
 Additional goals are to make it predictable and (reasonably) reliable networking solution using UDP bulding out an acknowledgement system by myself. 
